@@ -36,6 +36,3 @@ MD simulations are **super useful** in drug discovery. Here’s how:
 7. **Allosteric Site Identification**:
    - Discover new pockets on the protein away from the active site that could be targeted.
 
----
-
-If you're curious, I can show an example workflow or walk through an MD simulation setup for a drug-protein interaction. Interested?
