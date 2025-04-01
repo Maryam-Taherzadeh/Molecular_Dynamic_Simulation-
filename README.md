@@ -35,4 +35,65 @@ MD simulations are **super useful** in drug discovery. Here’s how:
 
 7. **Allosteric Site Identification**:
    - Discover new pockets on the protein away from the active site that could be targeted.
+  
+
+Great question — **GROMACS is widely used in drug discovery**, especially for studying **Protein-Protein Interactions (PPIs)**, which are emerging and often challenging targets in modern therapeutics.
+
+---
+
+### 💊 **Applications of GROMACS in Drug Discovery**
+
+#### 1. **Protein-Ligand Binding**
+- Simulate how a drug binds to its target over time.
+- Calculate binding free energy using:
+  - **MM/PBSA**, **MM/GBSA**
+  - **Alchemical methods** (Free Energy Perturbation, Thermodynamic Integration)
+  - **Umbrella sampling** for potential of mean force (PMF)
+
+#### 2. **Lead Optimization**
+- Test different ligand modifications and see how they affect binding.
+- Understand the **flexibility** of binding pockets.
+- Detect **allosteric sites** that aren’t visible in static crystal structures.
+
+#### 3. **ADME Profiling**
+- Study **permeability** of small molecules through lipid bilayers.
+- Simulate **metabolic degradation** sites.
+- Observe **conformational stability** of compounds under physiological conditions.
+
+#### 4. **Water Networks and Solvation**
+- Investigate key water molecules in binding sites.
+- Study desolvation penalties upon ligand binding — key for affinity predictions.
+
+---
+
+### 🤝 **Applications in Protein-Protein Interactions (PPI)**
+
+PPIs are involved in almost every cellular process and are crucial targets for cancer, neurodegeneration, and inflammation.
+
+#### 1. **Stability of Complexes**
+- Simulate native PPI complexes to assess **binding stability**, interface flexibility, and **hotspot residues**.
+
+#### 2. **PPI Disruption**
+- Test how small molecules or peptides might **disrupt PPIs** by docking them at the interface and simulating the dynamics.
+- Observe how interface residues shift or lose contact during the simulation.
+
+#### 3. **Interface Mapping**
+- Identify critical residues at the interface using **contact analysis**, **hydrogen bonds**, and **SASA (solvent-accessible surface area)**.
+
+#### 4. **Peptide or Macrocycle Inhibitors**
+- Simulate cyclic peptides, stapled peptides, or peptidomimetics that target shallow, flat PPI interfaces.
+- Evaluate **binding kinetics** and **conformational flexibility** of these inhibitors.
+
+#### 5. **Mutagenesis Simulation**
+- Model point mutations (e.g., alanine scanning) to evaluate their effect on PPI binding and interface dynamics.
+
+---
+
+### 🛠️ Common Workflows in GROMACS for Drug Discovery & PPI:
+1. **Molecular docking** → Select poses → Refine with MD.
+2. **MD simulation** of apo (free) and holo (ligand-bound) proteins.
+3. **Trajectory analysis**: RMSD, RMSF, H-bonds, distances, clustering.
+4. **Free energy estimation** to rank ligands or PPI disruptors.
+
+
 
