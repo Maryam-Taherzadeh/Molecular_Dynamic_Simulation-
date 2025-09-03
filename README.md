@@ -39,14 +39,14 @@ MD simulations are **super useful** in drug discovery. Here’s how:
 
 🔬 Molecular Dynamics (MD) Simulation
 
-### Other Applications:
-Protein folding & stability – studying how proteins adopt their 3D shape.
-Protein–ligand interactions – exploring how small molecules (drugs) interact dynamically with binding pockets.
-Conformational changes – capturing motions of proteins (e.g., allosteric changes, opening/closing of channels).
-Membrane protein studies – simulating receptors or ion channels in lipid bilayers.
-Free energy calculations – computing binding affinities (FEP, MM/PBSA, MM/GBSA).
-Drug resistance – predicting how mutations affect protein flexibility and drug binding.
-Tools: GROMACS, AMBER, NAMD, CHARMM, Desmond.
+###Other Applications:
+**Protein folding & stability – studying how proteins adopt their 3D shape.
+**Protein–ligand interactions – exploring how small molecules (drugs) interact dynamically with binding pockets.
+**Conformational changes – capturing motions of proteins (e.g., allosteric changes, opening/closing of channels).
+**Membrane protein studies – simulating receptors or ion channels in lipid bilayers.
+**Free energy calculations – computing binding affinities (FEP, MM/PBSA, MM/GBSA).
+**Drug resistance – predicting how mutations affect protein flexibility and drug binding.
+**Tools: GROMACS, AMBER, NAMD, CHARMM, Desmond.
 ---
 
 ### 💊 **Applications of GROMACS in Drug Discovery**
