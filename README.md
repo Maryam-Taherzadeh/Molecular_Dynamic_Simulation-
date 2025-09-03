@@ -39,7 +39,7 @@ MD simulations are **super useful** in drug discovery. Here’s how:
 
 🔬 Molecular Dynamics (MD) Simulation
 
-Other Applications:
+### Other Applications:
 Protein folding & stability – studying how proteins adopt their 3D shape.
 Protein–ligand interactions – exploring how small molecules (drugs) interact dynamically with binding pockets.
 Conformational changes – capturing motions of proteins (e.g., allosteric changes, opening/closing of channels).
